@@ -1,18 +1,11 @@
-# 🔐 Fraud Detection with SQL : 💳Transaction Data Analysis
+#  Fraud Detection with SQL : Transaction Data Analysis
 This project analyzes a financial transactions dataset using PostgreSQL to detect fraud patterns. It includes basic, intermediate, and advanced SQL queries covering fraud rates, balance inconsistencies, high-risk accounts, and top 1% high-value frauds.
 
 
 ---
-## 🛡️ License
-
-This project is licensed under the CC BY-NC-ND 4.0 License.  
-Unauthorized reposting or modification is strictly prohibited.  
-[View License](http://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-📩 For access or collaboration requests, please email me at: navakumarsajjan@gmail.com
 
 ---
-## 📁 Dataset Description
+##  Dataset Description
 
 The dataset consists of simulated financial transactions with the following key columns:
 
@@ -32,7 +25,7 @@ The dataset used is publicly available on Kaggle: https://www.kaggle.com/dataset
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 - Identify and explore fraud trends
 - Detect balance manipulation patterns
@@ -41,20 +34,20 @@ The dataset used is publicly available on Kaggle: https://www.kaggle.com/dataset
 
 ---
 
-## 🔎 SQL Query Categories
+##  SQL Query Categories
 
-### ✅ Basic Queries 
+###  Basic Queries 
 - Total transactions and fraud count
 - Unique transaction types
 - Top 5 highest transaction amounts
 
-### ⚙️ Intermediate Queries 
+###  Intermediate Queries 
 - Fraud rate by transaction type
 - Top suspicious sender accounts
 - Transaction volume over time
 - Zero balance patterns
 
-### 🚨 Advanced Queries 
+### Advanced Queries 
 - Balance mismatches indicating manipulation
 - Accounts appearing as both sender and receiver
 - High-value frauds (top 1% by amount)
@@ -63,14 +56,14 @@ The dataset used is publicly available on Kaggle: https://www.kaggle.com/dataset
 
 ---
 
-## 📊 Tools Used
+##  Tools Used
 
 - **PostgreSQL**: Querying and analysis
 - **pgAdmin**: SQL editor
 
 ---
 
-## 🔎 SQL Query
+##  SQL Query
 
 **1)Total transactions and fraud count**
 ```sql
@@ -202,7 +195,7 @@ These large transactions, such as those exceeding $10 million, pose a **higher f
 
 ---
 
-## 🧾 Findings
+## Findings
 
 - The majority of fraudulent transactions were concentrated in `TRANSFER` and `CASH_OUT` types, suggesting these are high-risk categories.
 - Several transactions showed balance inconsistencies and zero balance patterns, indicating possible manipulation or system loopholes.
